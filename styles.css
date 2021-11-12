@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+html{
+    height: 100vh;
+    background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1635550269_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_ff81f96a8779b35548682326d80d699e24594ff9");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: inline-block;
+}
+.header-logo{
+    width: 45vw;    
+    height: 10vh;    
+    padding: 0.5vh 0.5vh 0.5vw 5vw;
+    display: inline-block;
+    font-size: 0.5rem;
+    margin-right: 0.5vw;
+    /*background-color: gray;*/
+}
+.header-logo img{
+    width: 3vw;
+    height: 8vh;
+    margin-right: 0.5vw;
+    /*background-color: red;*/
+}
+.header-title{
+    width: 20vw;
+    line-height: 8vh;
+    height: 8vh;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.45vh 0.5vh;
+    margin-left: 0.5vw;
+    /*background-color: black;*/
+}
+.header-title h1{
+    font-size: 0.5rem;
+    font-weight: 100;  
+}
+nav{
+    display: inline-block;
+    height: 10vh;
+    width: 45vw;
+    vertical-align: top;
+    /*background-color: indianred;*/
+    padding: 2.5vh 0;
+    margin: 0 0 0 5vw;
+
+}
+nav ul li{    
+    height: 10vh;
+    width: 20vw;
+    display: inline;
+    margin-right: 1rem;
+    font-size: small;
+    font-weight: 100;
+    vertical-align: middle;
+}
+li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+main{
+    display: block;
+    height: 90vh;    
+    background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=7a8c854a-a5c6-4f77-bb53-8c7f1154222c&api_key=CometServer1&access_token=1635550269_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_ff81f96a8779b35548682326d80d699e24594ff9");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.background-main{
+    display: inline-block;
+    /*background-color: #fff;*/
+    height: 20vh;
+    width: 25vw;
+    background-size: contain;
+    margin-left: 40%;
+    margin-top: 40vh;
+}
+.background-main img{
+    display: inline-block;
+    height: 18vh;
+    width: 20vw;
+    background-size: contain;
+}
+.button{
+    height: 15vh;
+    width: 40vw;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 43%;
+    margin-top: 2vh;
+}
+.button img{
+    height: 6vh;
+    width: 15vw;
+}
+.button:hover{
+    cursor: pointer;
+}
